@@ -1,0 +1,17 @@
+[project]
+name = "dataagent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain>=1.1.0",
+    "langchain-openai>=1.1.0",
+    "langchain-tavily>=0.2.13",
+    "langgraph>=1.0.4",
+    "langgraph-cli[inmem]>=0.4.7",
+    "matplotlib>=3.10.7",
+    "pymysql>=1.1.2",
+    "seaborn>=0.13.2",
+]
