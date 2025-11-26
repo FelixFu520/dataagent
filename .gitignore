@@ -1,3 +1,9 @@
+# ignore
+uv.lock
+.env
+.python-version
+.langgraph_api/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
